@@ -14,8 +14,8 @@ class UserProviders2 with ChangeNotifier {
   List<Follow> get followpost =>_follow;
 
 
-  set followpost(List<Follow>val){
-    _follow = val;
+  set followpost(List<Follow>value){
+    _follow = value;
     notifyListeners();
   }
 
