@@ -16,7 +16,7 @@ class UserProviders2 with ChangeNotifier {
 
   set followpost(List<Follow>val){
     _follow = val;
-    notifyListeners();
+    
   }
 
   Future<void>getfollow(String username) async {
